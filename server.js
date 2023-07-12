@@ -19,9 +19,9 @@ app.get('/about',(req,res)=>{
 app.get('/gallery',(req,res)=>{
     res.render('gallery')
 })
-// app.get('/header',(req,res)=>{
-//     res.render('header')
-// })
+app.get('/header',(req,res)=>{
+    res.render('header')
+})
 // app.get('/footer',(req,res)=>{
 //     res.render('footer')
 // })
