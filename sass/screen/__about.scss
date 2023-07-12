@@ -1,0 +1,21 @@
+.about{
+   margin-top: 122px;
+   .heading{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 89px;
+    font-size: 43px;
+ font-weight: 700;
+ color: $background-primary;
+   }
+   p{
+    margin: 33px 49px;
+    position: relative;
+    color: rgb(2, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+   
+   }
+}

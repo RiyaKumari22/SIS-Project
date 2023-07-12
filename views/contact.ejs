@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <%- include('header') -%>
+<h2 class="heading">Contact Us</h2>
+        <section class="contact" id="contact">
+
+
+            <form action="" class="form">
+                <h3>Get In Touch</h3>
+                <!-- <label  for="name">Name: </label> -->
+                <input class="input" type="text" placeholder="Name">
+                <br>
+                <!-- <label  for="name">Email: </label> -->
+                <input class="input" type="email" placeholder="Email">
+                <br>
+
+                <!-- <label  for="name">Phone Number: </label> -->
+                <input class="input" type="number" placeholder="Phone no">
+                <br>
+
+                <textarea name="message" id="" placeholder="Message"></textarea>
+                <button class="button ">Submit</button>
+            </form>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.9052430927068!2d85.06244247389913!3d25.608064777448643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed57cee2163929%3A0x6e75812dd7ca3eb0!2sTaquino%20India%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1689068838815!5m2!1sen!2sin"
+                    width="400" height="380"  allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+        <%- include('footer') -%>
+
+</body>
+
+</html>
