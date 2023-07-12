@@ -6,7 +6,7 @@
     margin-top: 109px;
     font-size: 38px;
  font-weight: 700;
- color: gray;
+ color: $background-primary;
 }
 .cards{
     // height: calc(100vh - 72px);
@@ -31,6 +31,11 @@
                     height: 250px;
                     background-color: white;
                     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+                .btn{
+                  background-color: $background-primary;
+                  color: white;
+border: 1px solid $background-primary;
+                }
               & img{
                 width: 178px;
                 height: 160px;

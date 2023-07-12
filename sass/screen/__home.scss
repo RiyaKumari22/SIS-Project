@@ -1,7 +1,13 @@
 .screen{
-    & .carousel-inner .carousel-item .carousel-caption {
-        color: black;
-        font-size: 33px;}
+    & .carousel-inner .carousel-item .carousel-caption
+    {
+        & h5{
+color: $background-primary;
+font-size: 45px;
+        }
+        color: white;
+        font-size: 33px;
+    font-weight: 600;}
 }
 .content{
     margin-top: 55px;

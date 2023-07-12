@@ -7,7 +7,7 @@
   background-color: #282828;
   padding: 26px; }
   .footer .footer-icon a .bx {
-    color: white;
+    color: #caad07;
     font-size: 32px; }
   .footer a i {
     font-size: 52px;
@@ -15,11 +15,11 @@
     background-color: #555;
     color: white;
     /* border: 2px solid white; */
-    border: 2px solid white; }
+    border: 2px solid #555; }
   .footer .footer-item .col {
     position: relative; }
     .footer .footer-item .col h3 {
-      color: white;
+      color: #caad07;
       font-size: 22px;
       margin: 33px 45px; }
     .footer .footer-item .col p {
@@ -51,34 +51,49 @@
         color: #555; }
 
 .navbar {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  box-shadow: 0 4px 10px rgba(255, 245, 245, 0.1);
+  background-color: black;
   position: fixed;
   width: 100%;
+  height: 87px;
   top: 0; }
+  .navbar .img a img {
+    margin-left: 1px;
+    cursor: pointer;
+    width: 89px;
+    height: 85px; }
   .navbar .navbar-nav {
     margin-left: 400px; }
     .navbar .navbar-nav .nav-item {
       font-size: 18px;
-      padding: 12px; }
-      .navbar .navbar-nav .nav-item a {
+      padding: 0 10px 0 10px; }
+      .navbar .navbar-nav .nav-item .nav-link {
+        color: white;
+        font-weight: 600; }
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+          color: #caad07; }
+        .navbar .navbar-nav .nav-item .nav-link:focus {
+          color: #caad07; }
+        .navbar .navbar-nav .nav-item .nav-link:active {
+          color: #caad07; }
+      .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
         color: black;
-        font-weight: 700; }
-        .navbar .navbar-nav .nav-item a:hover {
-          color: #ca252b; }
-        .navbar .navbar-nav .nav-item a:focus {
-          color: #ca252b; }
-        .navbar .navbar-nav .nav-item a:active {
-          color: #ca252b; }
-    .navbar .navbar-nav .dropdown-menu li .dropdown-item:hover {
-      background-color: #ca252b;
-      color: white; }
+        font-size: 18px; }
+        .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+          color: white;
+          background-color: #caad07; }
   .navbar .form .fa {
-    font-size: 25px; }
+    font-size: 25px;
+    color: white;
+    margin-right: 21px; }
 
 .screen .carousel-inner .carousel-item .carousel-caption {
-  color: black;
-  font-size: 33px; }
+  color: white;
+  font-size: 33px;
+  font-weight: 600; }
+  .screen .carousel-inner .carousel-item .carousel-caption h5 {
+    color: #caad07;
+    font-size: 45px; }
 
 .content {
   margin-top: 55px;
@@ -97,7 +112,7 @@
     height: 200px;
     /* color: red; */ }
     .content .cont .button {
-      color: #ca252b;
+      color: #caad07;
       background-color: white;
       width: 209px;
       font-weight: 600;
@@ -105,8 +120,8 @@
       border: 2px solid #978e8e; }
       .content .cont .button:hover {
         color: white;
-        border: 1px solid #ca252b;
-        background-color: #ca252b; }
+        border: 1px solid #caad07;
+        background-color: #caad07; }
   .content .content-img {
     position: relative;
     margin-top: -12rem;
@@ -119,7 +134,7 @@
   margin-top: 109px;
   font-size: 33px;
   font-weight: 700;
-  color: gray; }
+  color: #caad07; }
 
 .contact {
   display: flex;
@@ -140,7 +155,7 @@
     .contact form h3 {
       margin-bottom: 10px;
       margin-left: 5rem;
-      color: #363535;
+      color: #8d8989;
       font-weight: 700;
       font-size: 29px; }
     .contact form .input {
@@ -172,17 +187,17 @@
     .contact form .button {
       font-weight: 700;
       border-radius: 6px;
-      border: 1px solid #ca252b;
+      border: 1px solid #caad07;
       color: white;
-      background-color: #ca252b;
+      background-color: #caad07;
       width: 89px;
       height: 39px;
       margin-left: 7rem;
       margin-top: 5px; }
       .contact form .button:hover {
-        color: #ca252b;
+        color: #caad07;
         background-color: white;
-        border: 1px solid #ca252b; }
+        border: 1px solid #caad07; }
   .contact .map {
     border-radius: 7px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); }
@@ -196,7 +211,7 @@
     margin-top: 89px;
     font-size: 40px;
     font-weight: 700;
-    color: #ca252b; }
+    color: #caad07; }
   .about p {
     margin: 33px 49px;
     position: relative;
@@ -211,7 +226,7 @@
   margin-top: 109px;
   font-size: 38px;
   font-weight: 700;
-  color: gray; }
+  color: #caad07; }
 
 .cards {
   width: 70rem;
@@ -232,6 +247,10 @@
     height: 250px;
     background-color: white;
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+    .cards .card .btn {
+      background-color: #caad07;
+      color: white;
+      border: 1px solid #caad07; }
     .cards .card img {
       width: 178px;
       height: 160px;
@@ -241,4 +260,4 @@
       margin-top: 30px; }
       .cards .card a:hover {
         background-color: white;
-        color: #ca252b; }
+        color: #caad07; }
