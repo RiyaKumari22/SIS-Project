@@ -16,6 +16,9 @@ app.get('/contact',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.render('about')
 })
+app.get('/gallery',(req,res)=>{
+    res.render('gallery')
+})
 // app.get('/header',(req,res)=>{
 //     res.render('header')
 // })

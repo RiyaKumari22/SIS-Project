@@ -117,12 +117,12 @@
     margin-top: -12rem;
     margin-left: 41rem; }
 
-.heading {
+.head {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 109px;
-  font-size: 40px;
+  font-size: 33px;
   font-weight: 700;
   color: gray; }
 
@@ -199,7 +199,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 89px;
-    font-size: 43px;
+    font-size: 40px;
     font-weight: 700;
     color: #ca252b; }
   .about p {
@@ -208,3 +208,42 @@
     color: #020000;
     font-size: 18px;
     font-weight: 500; }
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 109px;
+  font-size: 38px;
+  font-weight: 700;
+  color: gray; }
+
+.cards {
+  width: 70rem;
+  padding: 65px;
+  margin-top: -52px;
+  height: 670px;
+  margin-left: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .cards .card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+    .cards .card img {
+      width: 178px;
+      height: 160px;
+      margin-left: 3rem; }
+    .cards .card a {
+      margin-left: 11rem;
+      margin-top: 30px; }
+      .cards .card a:hover {
+        background-color: white;
+        color: #ca252b; }
