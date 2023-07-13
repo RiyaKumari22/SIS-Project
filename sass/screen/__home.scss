@@ -1,17 +1,4 @@
-.screen{
-    & .carousel-inner .carousel-item .carousel-caption
-    {
-        & h5{
-color: $background-primary;
-font-size: 45px;
-// font-family: 'Roboto Condensed';
-        }
-        color: white;
-        font-size: 33px;
-    font-weight: 600;
-    font-family: 'Roboto Condensed';
-}
-}
+
 .content{
     margin-top: 55px;
     margin: 78px 89px;
@@ -61,3 +48,63 @@ font-family: 'Roboto Condensed';
         margin-left: 41rem;
      }
 }
+.carousel {
+    width: 84rem;
+    // min-height: 200px;
+    margin-top:5rem;
+    // background-color: #e6e6e6;
+    position: relative;
+  }
+  .mySlides {
+    display: none;
+//    padding: 1rem;
+    // padding: 1rem 3.5rem;
+    // background-color: #0c991f;
+    // margin: 0 auto;
+    & img{
+        width:1349px;
+         height:472px;
+    }
+  }
+ 
+  
+  .slideshow-container {
+    position: relative;
+    margin: 0 auto;
+  }
+  .carousel .prev,
+  .carousel .next{
+    background-color: rgba(39, 36, 36, 0.2);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.6s ease;
+    border: none;
+    user-select: none;
+    left: 0;
+  }
+  .carousel .next{
+    left: unset;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .carousel .prev:hover,  
+  .carousel .prev:focus,
+  .carousel .next:hover,
+  .carousel .next:focus{
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+  }
+  .carousel .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+

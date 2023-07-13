@@ -3,6 +3,7 @@
     padding: 26px;
    & .footer-icon a .bx{
         color: $background-primary;
+        
     font-size: 32px;
 font-family: 'Roboto Condensed';
 
@@ -24,17 +25,26 @@ font-family: 'Roboto Condensed';
 & h3{
     color: $background-primary;
     font-size: 22px;
-        margin: 33px 45px;
+        margin: 23px 37px;
 font-family: 'Roboto Condensed';
 
 }
 & p{
-    margin-left: 36px;
+    margin-left: 37px;
 font-family: 'Roboto Condensed';
 
   
     position: relative; 
     color :rgb(151, 142, 142);
+    & a{
+        color: rgb(151, 142, 142);
+        // color: red;
+        text-decoration: none;
+        &:hover{
+            color: white;
+            text-decoration-line: underline;
+        }
+    }
 }
 ul li a{
     text-decoration: none;
