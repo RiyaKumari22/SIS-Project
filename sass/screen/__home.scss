@@ -4,22 +4,31 @@
         & h5{
 color: $background-primary;
 font-size: 45px;
+// font-family: 'Roboto Condensed';
         }
         color: white;
         font-size: 33px;
-    font-weight: 600;}
+    font-weight: 600;
+    font-family: 'Roboto Condensed';
+}
 }
 .content{
     margin-top: 55px;
     margin: 78px 89px;
+    font-weight: 400;
+font-family: 'Roboto Condensed';
+
     & .content-tittle{
         position: relative;
         font-size: 21px;
+font-family: 'Roboto Condensed';
+
         font-weight: 480;
         color: #878a8b;
     }
     & .cont{
         position: relative;
+font-family: 'Roboto Condensed';
     
         font-size: 18px;
         margin-top: 1.1rem;
@@ -33,6 +42,8 @@ font-size: 45px;
                 background-color: white;
                width: 209px;
                font-weight: 600;
+font-family: 'Roboto Condensed';
+
                height: 50px;
                 border: 2px solid  rgb(151, 142, 142);
             &:hover{
