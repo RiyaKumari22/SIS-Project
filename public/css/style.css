@@ -7,7 +7,7 @@
   background-color: #282828;
   padding: 26px; }
   .footer .footer-icon a .bx {
-    color: #caad07;
+    color: #C69E24;
     font-size: 32px;
     font-family: 'Roboto Condensed'; }
   .footer a i {
@@ -21,7 +21,7 @@
   .footer .footer-item .col {
     position: relative; }
     .footer .footer-item .col h3 {
-      color: #caad07;
+      color: #C69E24;
       font-size: 22px;
       margin: 23px 37px;
       font-family: 'Roboto Condensed'; }
@@ -65,7 +65,7 @@
 
 .navbar {
   box-shadow: 0 4px 10px rgba(255, 245, 245, 0.1);
-  background-image: linear-gradient(to left, #caad07, black 80%);
+  background-image: linear-gradient(to left, #C69E24, black 70%);
   position: fixed;
   width: 100%;
   height: 87px;
@@ -79,29 +79,23 @@
     margin-left: 400px; }
     .navbar .navbar-nav .nav-item {
       font-size: 18px;
-      padding: 0 10px 0 10px; }
+      padding: 0 16px 0 16px; }
       .navbar .navbar-nav .nav-item .nav-link {
         color: white;
         font-weight: 700; }
         .navbar .navbar-nav .nav-item .nav-link:hover {
-          color: #caad07; }
+          color: #C69E24; }
         .navbar .navbar-nav .nav-item .nav-link:focus {
-          color: #caad07; }
+          color: #C69E24; }
         .navbar .navbar-nav .nav-item .nav-link:active {
-          color: #caad07; }
+          color: #C69E24; }
       .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
         color: black;
         font-size: 18px;
         font-family: 'Roboto Condensed'; }
         .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
           color: white;
-          background-color: #caad07; }
-  .navbar .form .fa {
-    font-size: 25px;
-    color: white;
-    margin-right: 21px; }
-    .navbar .form .fa:hover {
-      color: gray; }
+          background-color: #C69E24; }
 
 .content {
   margin-top: 55px;
@@ -124,7 +118,7 @@
     height: 200px;
     /* color: red; */ }
     .content .cont .button {
-      color: #caad07;
+      color: #C69E24;
       background-color: white;
       width: 209px;
       font-weight: 600;
@@ -133,8 +127,8 @@
       border: 2px solid #978e8e; }
       .content .cont .button:hover {
         color: white;
-        border: 1px solid #caad07;
-        background-color: #caad07; }
+        border: 1px solid #C69E24;
+        background-color: #C69E24; }
   .content .content-img {
     position: relative;
     margin-top: -12rem;
@@ -148,8 +142,10 @@
 .mySlides {
   display: none; }
   .mySlides img {
-    width: 1349px;
-    height: 472px; }
+    margin-top: 1rem;
+    margin-left: 4rem;
+    width: 1209px;
+    height: 512px; }
 
 .slideshow-container {
   position: relative;
@@ -198,7 +194,7 @@
   font-family: 'Roboto Condensed';
   font-size: 33px;
   font-weight: 700;
-  color: #caad07; }
+  color: #C69E24; }
 
 .contact {
   display: flex;
@@ -254,17 +250,17 @@
     .contact form .button {
       font-weight: 700;
       border-radius: 6px;
-      border: 1px solid #caad07;
+      border: 1px solid #C69E24;
       color: white;
-      background-color: #caad07;
+      background-color: #C69E24;
       width: 89px;
       height: 39px;
       margin-left: 7rem;
       margin-top: 5px; }
       .contact form .button:hover {
-        color: #caad07;
+        color: #C69E24;
         background-color: white;
-        border: 1px solid #caad07; }
+        border: 1px solid #C69E24; }
   .contact .map {
     border-radius: 7px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); }
@@ -279,7 +275,7 @@
     font-size: 40px;
     font-family: 'Roboto Condensed';
     font-weight: 700;
-    color: #caad07; }
+    color: #C69E24; }
   .about p {
     margin: 33px 49px;
     position: relative;
@@ -296,7 +292,7 @@
   font-size: 38px;
   font-weight: 700;
   font-family: 'Roboto Condensed';
-  color: #caad07; }
+  color: #C69E24; }
 
 .cards {
   width: 70rem;
@@ -318,11 +314,11 @@
     background-color: white;
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
     .cards .card .btn {
-      background-color: #caad07;
+      background-color: #C69E24;
       color: white;
       font-weight: 400;
       font-family: Arial, Helvetica, sans-serif;
-      border: 1px solid #caad07; }
+      border: 1px solid #C69E24; }
     .cards .card img {
       width: 178px;
       height: 160px;
@@ -332,4 +328,4 @@
       margin-top: 30px; }
       .cards .card a:hover {
         background-color: white;
-        color: #caad07; }
+        color: #C69E24; }
