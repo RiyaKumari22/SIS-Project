@@ -60,7 +60,8 @@ font-family: 'Roboto Condensed';
 }
 
 .foot {
-
+justify-content: center;
+align-items: center;
     background-color: #0c0b0b;
     padding: 2px;
     display: flex;
@@ -69,12 +70,13 @@ font-family: 'Roboto Condensed';
     font-size: 16px;
    margin-top: 9px;
 font-family: 'Roboto Condensed';
-
+font-weight: 800;
    margin-left: 9px;
     // margin: -16px;
 }
 &  .foot-right .social-media-icons li {
     display: inline-block;
+    margin-top: 9px;
     margin-right: 10px;
     & a {
         color: #888;

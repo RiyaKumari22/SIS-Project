@@ -1,16 +1,23 @@
 .about{
    margin-top: 122px;
    .heading{
-  
-    display: flex;
+//   background-image: url("https://media.istockphoto.com/id/1191996804/photo/black-gold-background-gradient-texture-soft-golden-with-light-technology-diagonal-gray-and.webp?b=1&s=170667a&w=0&k=20&c=YbkZSknnEMXOJOUOq8V4XtzR2qHRKW22zl5fV4GcymY=");
+//   background-size: 675px;  
+// width: 48px;
+// border:1px solid #C69E24;
+// height: 300px;
+  display: flex;
+//   background-image:linear-gradient(to left,#C69E24 ,black 70%) ;
     justify-content: center;
     align-items: center;
     margin-top: 89px;
-    font-size: 40px;
+    font-size: 49px;
 font-family: 'Roboto Condensed';
 
- font-weight: 700;
- color: $background-primary;
+ font-weight: 800;
+
+color: $background-primary;
+// background: -webkit-linear-gradient(orangered, orange);
    }
    p{
     margin: 33px 49px;
