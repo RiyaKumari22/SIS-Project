@@ -190,16 +190,6 @@
   animation-name: fade;
   animation-duration: 1.5s; }
 
-.head {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 109px;
-  font-family: 'Roboto Condensed';
-  font-size: 33px;
-  font-weight: 700;
-  color: #C69E24; }
-
 .contact {
   display: flex;
   flex-direction: row;
@@ -269,34 +259,13 @@
     border-radius: 7px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); }
 
-.about {
-  margin-top: 122px; }
-  .about .heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 89px;
-    font-size: 49px;
-    font-family: 'Roboto Condensed';
-    font-weight: 800;
-    color: #C69E24; }
-  .about p {
-    margin: 33px 49px;
-    position: relative;
-    color: #020000;
-    font-size: 18px;
-    font-family: 'Roboto Condensed';
-    font-weight: 500; }
-
-.heading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 109px;
-  font-size: 38px;
-  font-weight: 700;
+.about p {
+  margin: 33px 49px;
+  position: relative;
+  color: #020000;
+  font-size: 18px;
   font-family: 'Roboto Condensed';
-  color: #C69E24; }
+  font-weight: 500; }
 
 .cards {
   width: 70rem;
@@ -306,9 +275,7 @@
   margin-left: 9rem;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; }
+  flex-direction: row; }
   .cards .card {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -328,8 +295,116 @@
       height: 160px;
       margin-left: 3rem; }
     .cards .card a {
-      margin-left: 11rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-top: 30px; }
       .cards .card a:hover {
         background-color: white;
         color: #C69E24; }
+
+.pagetitle {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  color: #C69E24;
+  width: 100%;
+  height: 160px;
+  background-color: #C69E24;
+  color: white; }
+  .pagetitle h1 {
+    font-size: 47px; }
+
+.activities {
+  width: 70rem;
+  padding: 65px;
+  margin-top: -52px;
+  height: 670px;
+  margin-left: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .activities .tcard {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px;
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+    .activities .tcard img {
+      width: 286px;
+      height: 238px; }
+
+.bootcamp {
+  width: 70rem;
+  padding: 65px;
+  margin-top: -52px;
+  height: 670px;
+  margin-left: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .bootcamp .tcard {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px;
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+    .bootcamp .tcard img {
+      width: 286px;
+      height: 238px; }
+
+.infrastructure {
+  width: 70rem;
+  padding: 65px;
+  margin-top: -52px;
+  height: 670px;
+  margin-left: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .infrastructure .tcard {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px;
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+    .infrastructure .tcard img {
+      width: 286px;
+      height: 238px; }
+
+.placement {
+  width: 70rem;
+  padding: 65px;
+  margin-top: -52px;
+  height: 670px;
+  margin-left: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .placement .tcard {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px;
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+    .placement .tcard img {
+      width: 286px;
+      height: 238px; }
