@@ -315,7 +315,8 @@
   background-color: #C69E24;
   color: white; }
   .pagetitle h1 {
-    font-size: 47px; }
+    font-size: 47px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .activities {
   width: 70rem;

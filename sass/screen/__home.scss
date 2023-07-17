@@ -50,17 +50,14 @@ font-family: 'Roboto Condensed';
 }
 .carousel {
     width: 84rem;
-    // min-height: 200px;
+ 
     margin-top:5rem;
-    // background-color: #e6e6e6;
+    
     position: relative;
   }
   .mySlides {
     display: none;       
-//    padding: 1rem;
-    // padding: 1rem 3.5rem;
-    // background-color: #0c991f;
-    // margin: 0 auto;
+
     & img{
       margin-top: 1rem;
       margin-left: 4rem;
