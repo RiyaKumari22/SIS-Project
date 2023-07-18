@@ -1,0 +1,47 @@
+.training {margin-top: 8rem;
+    .head{
+
+    
+    & h4{
+
+     font-weight: 700;
+        // text-align: center;
+        font-size:27px;
+        margin-left:7rem;
+        & span{
+            color: $background-primary;
+
+        }
+       
+    }
+    & img{
+        margin-top: -4rem;
+        margin-left: 33rem;
+        width: 742px;
+        height: 220px;
+    }}
+    & p{
+        margin: 2rem 3rem 2rem 33rem;
+font-size: 17px;
+    }
+    & .imgfile{
+        display: flex;
+        flex-direction: row;
+        width: 709px;
+        margin-left: 33rem;
+        // background-color: red;
+        height: 230px;
+& img{
+    padding: 1rem;
+   width: 366px;
+   height: 260px;
+}
+    }
+    & h6 {
+        margin: 2rem 7rem;
+        // color: red;
+font-size: 17px;
+ 
+        // color: black;
+    }
+  } 

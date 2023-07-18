@@ -68,7 +68,7 @@
         color: #555; }
 
 .navbar {
-  box-shadow: 0 4px 10px;
+  box-shadow: 0 4px 7px;
   background-image: linear-gradient(to left, #C69E24, black 70%);
   width: 100%;
   height: 87px;
@@ -405,3 +405,114 @@
     .placement .tcard img {
       width: 286px;
       height: 238px; }
+
+.director h2 {
+  margin-top: 8rem;
+  font-weight: 700;
+  font-size: 37px;
+  margin-left: 10rem; }
+  .director h2 p {
+    font-size: 70px;
+    color: #C69E24; }
+  .director h2 .dcards {
+    width: 70rem;
+    padding: 35px;
+    margin-top: -52px;
+    height: 1270px;
+    margin-left: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    .director h2 .dcards .dcard {
+      margin: 16px;
+      width: 100px;
+      height: 250px;
+      background-color: white; }
+      .director h2 .dcards .dcard .card-title {
+        font-weight: 600;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 1px;
+        width: 238px;
+        height: 32px;
+        color: white;
+        margin-left: 4rem;
+        border: 2px solid #C69E24;
+        background-color: #C69E24; }
+      .director h2 .dcards .dcard img {
+        width: 238px;
+        height: 250px;
+        margin-left: 4rem; }
+
+.committee h2 {
+  margin-top: 8rem;
+  font-weight: 700;
+  font-size: 38px;
+  margin-left: 10rem; }
+  .committee h2 p {
+    font-size: 60px;
+    color: #C69E24; }
+
+.about p {
+  margin-left: 10rem;
+  font-size: 25px; }
+
+.dcards {
+  width: 70rem;
+  padding: 35px;
+  margin-top: -52px;
+  height: 1270px;
+  margin-left: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .dcards .dcard {
+    margin: 16px;
+    width: 100px;
+    height: 250px;
+    background-color: white; }
+    .dcards .dcard .card-title {
+      font-weight: 600;
+      font-size: 19px;
+      text-align: center;
+      margin-top: 1px;
+      width: 238px;
+      height: 32px;
+      color: white;
+      margin-left: 4rem;
+      border: 2px solid #C69E24;
+      background-color: #C69E24; }
+    .dcards .dcard img {
+      width: 238px;
+      height: 250px;
+      margin-left: 4rem; }
+
+.training {
+  margin-top: 8rem; }
+  .training .head h4 {
+    font-weight: 700;
+    font-size: 27px;
+    margin-left: 7rem; }
+    .training .head h4 span {
+      color: #C69E24; }
+  .training .head img {
+    margin-top: -4rem;
+    margin-left: 33rem;
+    width: 742px;
+    height: 220px; }
+  .training p {
+    margin: 2rem 3rem 2rem 33rem;
+    font-size: 17px; }
+  .training .imgfile {
+    display: flex;
+    flex-direction: row;
+    width: 709px;
+    margin-left: 33rem;
+    height: 230px; }
+    .training .imgfile img {
+      padding: 1rem;
+      width: 366px;
+      height: 260px; }
+  .training h6 {
+    margin: 2rem 7rem;
+    font-size: 17px; }

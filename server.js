@@ -34,6 +34,15 @@ app.get('/infrastructure',(req,res)=>{
 app.get('/placement',(req,res)=>{
     res.render('placement',{'name':'PLACED STUDENTS'})
 })
+app.get('/director',(req,res)=>{
+    res.render('director',{'name':'BOARD OF DIRECTORS'})
+})
+app.get('/committee',(req,res)=>{
+    res.render('committee',{'name':'GROUP MANAGEMENT COMMITTEE'})
+})
+app.get('/training',(req,res)=>{
+    res.render('training',{'name':'TRAINING AND DEVELOPMENT'})
+})
 // app.get('/header',(req,res)=>{
 //     res.render('header')
 // })
