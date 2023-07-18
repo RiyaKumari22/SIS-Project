@@ -1,8 +1,10 @@
 .navbar{
     // border-bottom:4px solid  rgba(0, 0, 0, 0.1) ;
-    box-shadow: 0 4px 10px rgba(255, 245, 245, 0.1);
-    background-image:linear-gradient(to left,#C69E24 ,black 70% );
-    position: fixed;
+    box-shadow: 0 4px 10px 
+    ;
+    background-image:linear-gradient(to left,$background-primary ,black  70%);
+  
+   
     width: 100%;
 height: 87px;
     top: 0;
@@ -29,16 +31,13 @@ height: 87px;
      
         color: white;
     font-weight:700;
-// font-family: 'Roboto Condensed';
+
 
 &:hover
 {
   color: $background-primary;
 }    
-&:focus{
-  color: $background-primary;
 
-}
 &:active{
   color: $background-primary;
 

@@ -8,7 +8,7 @@ app.set("view engine","ejs")
 app.use(express.static(__dirname + '/public'));
 // app.st(express.static(staticPath))
 app.get('/',(req,res)=>{
-    res.render('index',{"name":"Home"})
+    res.render('index',{"name":"HOME"})
    
 
 
