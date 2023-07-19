@@ -1,19 +1,19 @@
-<%- include('./components/header'); -%>
+<%- include('./components/header') -%>
+
     <section class="screen">
+
         <div class="carousel">
             <div class="slideshow-container">
                 <div class="mySlides one">
-                    <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbXBhbnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-                        alt="">
+                    <img src="assets/slideshowimg1.jpg" alt="img1">
                 </div>
                 <div class="mySlides two">
-                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                        alt="">
+                    <img src="assets/slidshowimg2.jpg" alt="img2">
                 </div>
-                <div class="mySlides three"> <img
-                        src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                        alt=""></div>
+                <div class="mySlides three"> <img src="assets/slideshowimg3.jpg" alt="img3"></div>
             </div>
+
+
             <div class="direction prev" tabindex="0" onclick="plusSlides(-1)" role="button">❮</div>
             <div class="direction next" tabindex="0" onclick="plusSlides(1)" role="button">❯</div>
         </div>
@@ -23,32 +23,31 @@
 
 
         <div class="content-title">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, ducimus. Sunt, perspiciatis voluptas.
-                Iste
-                voluptatibus est accusamus ab eius nostrum ipsam aspernatur eaque facere similique tempora ullam
-                iure
-                adipisci verosit!</h2>
+            <h2>SIS provides Security, Facility Management and Cash Logistics Solutions, which are essential to the
+                functioning of a vibrant and healthy economy. We have emerged as a trusted leader across these business
+                segments in India and other geographies in the Asia-Pacific region.</h2>
         </div>
-        <div class="cont">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, atque dolorem!Lorem ipsum, dolor
-                sit
-                amet consectetur adipisicing elit. Dolor, sapiente vitae, modi rerum aspernatur ullam cupiditate
-                eveniet
-                quibusdam praesentium culpa provident placeat voluptatem ab temporibus iste? Tempora in iusto harum
-                reprehenderit explicabo delectus.
-                <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis ut. ipsum dolor sit
-                amet
-                consectetur adipisicing elit. Pariatur odit earum cupiditate, libero voluptates debitis, animi, quos
-                accusamus illum ab reiciendis? Repellat!
-            </p>
-            <button class="button">Want to Know More</button>
+        <div class="content__c">
+            <div class="cont">
+                <p>With an unremitting spirit of innovation coupled with a dynamic and multifaceted portfolio of
+                    solutions,
+                    we strive to offer people enduring value. Our deep market insights of more than 40 years enable us
+                    to
+                    leverage growth opportunities in the key markets where we operate concurrently, helping our brands
+                    emerge as trusted leaders.
+                    <br>
+                    <br>
+                    A market leader of essential service verticals, we have steadily increased our offerings and reach,
+                    catering to the varied and dynamic demands of the markets we serve, including marquee clients that
+                    comprise Fortune 200 companies
+                </p>
+                <button class="button">Want to Know More</button>
 
-        </div>
-        <div class="content-img">
-            <img src="https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW50ZXJuZXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-                alt="img4">
+            </div>
+            <div class="content-img">
+                <img src="assets/home-page-image-1a.jpg" alt="img4">
 
+            </div>
 
         </div>
 
@@ -56,23 +55,14 @@
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-        crossorigin="anonymous"></script> -->
     <script>
-
         let slideIndex = 1;
         showSlides(slideIndex);
 
-        // Next/previous controls
         function plusSlides(n) {
             showSlides(slideIndex += n);
         }
-        // Thumbnail image controls
+
         function currentSlide(n) {
             showSlides(slideIndex = n);
         }
@@ -100,4 +90,6 @@
         }, 2000)
 
     </script>
-    <%- include('./components/footer'); -%>
+
+
+    <%- include('./components/footer') -%>
