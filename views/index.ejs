@@ -1,57 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
-    <!-- <link rel="stylesheet" href="../styl.css"> -->
-    <!-- <link rel="stylesheet" href="./css/styl.css" type="text/css"> -->
-    <link rel="stylesheet" href="./css/style.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-cfGVp4iygrx6kr2zOz2GpGnV3sIm8x59Rv7vpL6UJ7EE9l7xr1+gYMLuJz84U/n/yOwDIKUVosd+rCBZZ4q4FA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  
- <body>
-    <%- include('header') -%>
+<%- include('./components/header'); -%>
     <section class="screen">
         <div class="carousel">
             <div class="slideshow-container">
-              <div class="mySlides one">
-                <img  src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbXBhbnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
-              </div>
-               <div class="mySlides two">
-                <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
-               </div>
-                <div class="mySlides three"> <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt=""></div>
-             </div>
+                <div class="mySlides one">
+                    <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbXBhbnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+                <div class="mySlides two">
+                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="">
+                </div>
+                <div class="mySlides three"> <img
+                        src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""></div>
+            </div>
             <div class="direction prev" tabindex="0" onclick="plusSlides(-1)" role="button">❮</div>
-          <div class="direction next" tabindex="0" onclick="plusSlides(1)" role="button">❯</div>
-           </div>
-      
+            <div class="direction next" tabindex="0" onclick="plusSlides(1)" role="button">❯</div>
+        </div>
+
     </section>
     <section class="content">
 
-        
+
         <div class="content-title">
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, ducimus. Sunt, perspiciatis voluptas. Iste
-                voluptatibus est accusamus ab eius nostrum ipsam aspernatur eaque facere similique tempora ullam iure
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, ducimus. Sunt, perspiciatis voluptas.
+                Iste
+                voluptatibus est accusamus ab eius nostrum ipsam aspernatur eaque facere similique tempora ullam
+                iure
                 adipisci verosit!</h2>
-            </div>
-            <div class="cont">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, atque dolorem!Lorem ipsum, dolor sit
-                amet consectetur adipisicing elit. Dolor, sapiente vitae, modi rerum aspernatur ullam cupiditate eveniet
+        </div>
+        <div class="cont">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, atque dolorem!Lorem ipsum, dolor
+                sit
+                amet consectetur adipisicing elit. Dolor, sapiente vitae, modi rerum aspernatur ullam cupiditate
+                eveniet
                 quibusdam praesentium culpa provident placeat voluptatem ab temporibus iste? Tempora in iusto harum
                 reprehenderit explicabo delectus.
                 <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis ut. ipsum dolor sit amet
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis ut. ipsum dolor sit
+                amet
                 consectetur adipisicing elit. Pariatur odit earum cupiditate, libero voluptates debitis, animi, quos
                 accusamus illum ab reiciendis? Repellat!
             </p>
@@ -64,55 +51,53 @@
 
 
         </div>
-        
+
     </section>
-    <%- include('footer') -%>
-    
-  
-     
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-        crossorigin="anonymous"></script>
-        <script >
+        crossorigin="anonymous"></script> -->
+    <script>
 
-let slideIndex = 1;
-showSlides(slideIndex);
+        let slideIndex = 1;
+        showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-function showSlides(n) {
-    let i;
-    if (document.querySelector(".carousel")) {
-        let slideshowPage = document.querySelector(".carousel");
-        if (slideshowPage.classList.contains("carousel")) {
-            let slides = slideshowPage.querySelectorAll(".mySlides");
-            if (n > slides.length) {
-            slideIndex = 1
-            };
-            if (n < 1) {
-            slideIndex = slides.length
-            };
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        };
-        slides[slideIndex-1].style.display = "block";
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
         }
-    }}
-    setInterval(function() {
-  plusSlides(1)
-}, 2000)
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+        function showSlides(n) {
+            let i;
+            if (document.querySelector(".carousel")) {
+                let slideshowPage = document.querySelector(".carousel");
+                if (slideshowPage.classList.contains("carousel")) {
+                    let slides = slideshowPage.querySelectorAll(".mySlides");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    };
+                    if (n < 1) {
+                        slideIndex = slides.length
+                    };
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    };
+                    slides[slideIndex - 1].style.display = "block";
+                }
+            }
+        }
+        setInterval(function () {
+            plusSlides(1)
+        }, 2000)
 
-        </script>
-</body>   
-
-</html>
+    </script>
+    <%- include('./components/footer'); -%>
