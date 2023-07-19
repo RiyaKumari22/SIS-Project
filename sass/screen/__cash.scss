@@ -1,0 +1,46 @@
+.cash{
+    margin-top: 9rem;
+  display: flex;
+  flex-direction: row;
+    & h2{
+        font-size: 40px;
+        font-weight: 700;
+        // text-align: center;
+        margin-left: 8rem;
+        & span{
+            color: $background-primary;
+            // color: red;
+            
+        }
+    
+
+    }
+    & p{margin: 2rem 4rem 0 3rem;
+        // margin-left: 4rem;
+font-family: 'Roboto Condensed';
+
+        // margin-right: 3rem;
+        font-size: 19px;
+    }
+}
+.groupcompanyCash{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    & h4{
+        font-weight: 700;
+        font-size: 29px;
+        
+        text-align: center;
+        & span{
+            color: $background-primary;
+        }
+        
+    }
+    & img{
+      
+    width: 190px;
+        
+          margin-left: 18rem;
+    // padding: 8px;
+   }
+}

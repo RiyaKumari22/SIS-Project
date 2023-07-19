@@ -429,6 +429,7 @@
       height: 250px;
       background-color: white; }
       .director h2 .dcards .dcard .card-title {
+        font-family: 'Roboto Condensed';
         font-weight: 600;
         font-size: 19px;
         text-align: center;
@@ -455,7 +456,8 @@
 
 .about p {
   margin-left: 10rem;
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: 'Roboto Condensed'; }
 
 .dcards {
   width: 70rem;
@@ -479,6 +481,7 @@
       width: 238px;
       height: 32px;
       color: white;
+      font-family: 'Roboto Condensed';
       margin-left: 4rem;
       border: 2px solid #C69E24;
       background-color: #C69E24; }
@@ -502,7 +505,8 @@
     height: 220px; }
   .training p {
     margin: 2rem 3rem 2rem 33rem;
-    font-size: 17px; }
+    font-size: 17px;
+    font-family: 'Roboto Condensed'; }
   .training .imgfile {
     display: flex;
     flex-direction: row;
@@ -516,3 +520,142 @@
   .training h6 {
     margin: 2rem 7rem;
     font-size: 17px; }
+
+.security {
+  margin-top: 8rem; }
+  .security h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center; }
+    .security h2 span {
+      color: #C69E24; }
+  .security .content {
+    display: flex;
+    flex-direction: row; }
+    .security .content img {
+      margin-left: 1rem;
+      width: 370px;
+      height: 310px; }
+    .security .content p {
+      font-size: 19px;
+      font-family: 'Roboto Condensed';
+      margin-left: 2rem; }
+
+.groupcompanySecurity {
+  background-color: #f8f8f8;
+  padding: 3rem; }
+  .groupcompanySecurity h4 {
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center; }
+    .groupcompanySecurity h4 span {
+      color: #C69E24; }
+  .groupcompanySecurity img {
+    width: 180px;
+    margin-left: 3rem; }
+
+.facility {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row; }
+  .facility h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 11rem; }
+    .facility h2 span {
+      color: #C69E24; }
+  .facility p {
+    margin-left: 3rem;
+    font-family: 'Roboto Condensed';
+    margin-right: 3rem;
+    font-size: 19px; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 3rem 1rem 7rem; }
+  .container .ileft .item:first-child {
+    margin-left: 7px; }
+  .container .ileft .item {
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px; }
+    .container .ileft .item img {
+      width: 120px;
+      height: 80px; }
+    .container .ileft .item .cont {
+      margin-left: 1rem; }
+      .container .ileft .item .cont h6 {
+        font-size: 22px;
+        color: #222529;
+        margin-bottom: 0;
+        font-weight: 700; }
+      .container .ileft .item .cont p {
+        font-size: 16px;
+        margin-top: 7px;
+        font-family: 'Roboto Condensed'; }
+  .container .iright .item:first-child {
+    margin-left: 7px; }
+  .container .iright .item:last-child {
+    margin-top: 3rem; }
+  .container .iright .item {
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px; }
+    .container .iright .item img {
+      width: 120px;
+      height: 80px; }
+    .container .iright .item .cont {
+      margin-left: 1rem; }
+      .container .iright .item .cont h6 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #222529;
+        margin-bottom: 0; }
+      .container .iright .item .cont p {
+        margin-top: 7px;
+        font-family: 'Roboto Condensed';
+        font-size: 16px; }
+
+.groupcompany {
+  background-color: white;
+  padding: 3rem; }
+  .groupcompany h4 {
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center; }
+    .groupcompany h4 span {
+      color: #C69E24; }
+  .groupcompany img {
+    width: 190px;
+    margin-left: 3rem; }
+
+.cash {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: row; }
+  .cash h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 8rem; }
+    .cash h2 span {
+      color: #C69E24; }
+  .cash p {
+    margin: 2rem 4rem 0 3rem;
+    font-family: 'Roboto Condensed';
+    font-size: 19px; }
+
+.groupcompanyCash {
+  background-color: white;
+  padding: 3rem; }
+  .groupcompanyCash h4 {
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center; }
+    .groupcompanyCash h4 span {
+      color: #C69E24; }
+  .groupcompanyCash img {
+    width: 190px;
+    margin-left: 18rem; }

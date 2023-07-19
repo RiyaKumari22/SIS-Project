@@ -35,13 +35,22 @@ app.get('/placement',(req,res)=>{
     res.render('placement',{'name':'PLACED STUDENTS'})
 })
 app.get('/director',(req,res)=>{
-    res.render('director',{'name':'BOARD OF DIRECTORS'})
+    res.render('director',{'name':'Board of Directors'})
 })
 app.get('/committee',(req,res)=>{
-    res.render('committee',{'name':'GROUP MANAGEMENT COMMITTEE'})
+    res.render('committee',{'name':'Group Management Committee'})
 })
 app.get('/training',(req,res)=>{
-    res.render('training',{'name':'TRAINING AND DEVELOPMENT'})
+    res.render('training',{'name':'Training and Development'})
+})
+app.get('/security',(req,res)=>{
+    res.render('security',{'name':'Security Solutions'})
+})
+app.get('/facility',(req,res)=>{
+    res.render('facility',{'name':'Facility Management Solutions'})
+})
+app.get('/cash',(req,res)=>{
+    res.render('cash',{'name':'Cash Logistics Solutions'})
 })
 // app.get('/header',(req,res)=>{
 //     res.render('header')
