@@ -68,8 +68,8 @@
         color: #555; }
 
 .navbar {
-  box-shadow: 0 4px 7px;
-  background-image: linear-gradient(to left, #C69E24, black 70%);
+  box-shadow: 0 2px 3px;
+  background-image: linear-gradient(to left, #C69E24, black 80%);
   width: 100%;
   height: 87px;
   top: 0; }
@@ -143,9 +143,7 @@
 .mySlides {
   display: none; }
   .mySlides img {
-    margin-top: 1rem;
-    margin-left: 4rem;
-    width: 1209px;
+    width: 1349px;
     height: 512px; }
 
 .slideshow-container {
