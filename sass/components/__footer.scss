@@ -1,102 +1,106 @@
-.footer{
-    background-color: #282828;
-    padding: 26px;
-   
-//   @include for-desktop;
+ .footer {
+     background-color: #282828;
+     padding: 26px;
 
-   & .footer-icon a .bx{
-        color: $background-primary;
-        
-    font-size: 32px;
-font-family: 'Roboto Condensed';
+     & .footer-icon a .bx {
+         color: $background-primary;
+         font-size: 32px;
+         font-family: 'Roboto Condensed';
+         position: absolute;
+         right: 30px;
+     }
 
-    
-    }
-    & a i{
-        font-size: 52px;
-        // color:#555;
-        margin-left: 78rem;
-      background-color:#555;
-       color: white;
-font-family: 'Roboto Condensed';
+     & a i {
+         font-size: 52px;
+         // color:#555;
+         //  margin-left: 78rem;
+         background-color: #555;
+         color: white;
+         font-family: 'Roboto Condensed';
 
-        /* border: 2px solid white; */
-     border: 2px solid #555;
-    }
-    & .footer-item .col{
-        position: relative;
-& h3{
-    color: $background-primary;
-    font-size: 22px;
-        margin: 23px 37px;
-font-family: 'Roboto Condensed';
+         /* border: 2px solid white; */
+         border: 2px solid #555;
+     }
 
-}
-& p{
-    margin-left: 37px;
-font-family: 'Roboto Condensed';
+     & .footer-item .col {
+         position: relative;
 
-  
-    position: relative; 
-    color :rgb(151, 142, 142);
-    & a{
-        color: rgb(151, 142, 142);
-        // color: red;
-        text-decoration: none;
-        &:hover{
-            color: white;
-            text-decoration-line: underline;
-        }
-    }
-}
-ul li a{
-    text-decoration: none;
-font-family: 'Roboto Condensed';
+         & h3 {
+             color: $background-primary;
+             font-size: 22px;
+             margin: 23px 37px;
+             font-family: 'Roboto Condensed';
 
-    color: rgb(151, 142, 142);
-    &:hover{
-    color: white;
+         }
 
-    }
-   }
-    }
-}
-
-.foot {
-    // @include for-desktop;
-
-    // width: 100%;
-justify-content: center;
-align-items: center;
-    background-color: #0c0b0b;
-    padding: 2px;
-    // width: 1380px;
-    display: flex;
-& .foot-left{
-    color: #888;
-    font-size: 16px;
-   margin-top: 9px;
-font-family: 'Roboto Condensed';
-font-weight: 800;
-   margin-left: 9px;
-    // margin: -16px;
-}
-&  .foot-right .social-media-icons li {
-    display: inline-block;
-    margin-top: 9px;
-    margin-right: 10px;
-    & a {
-        color: #888;
-        // margin-left: 103px;
-        font-size: 24px;
-font-family: 'Roboto Condensed';
-
-  &:hover{
+         & p {
+             margin-left: 37px;
+             font-family: 'Roboto Condensed';
 
 
-    color: #555;
+             position: relative;
+             color: rgb(151, 142, 142);
 
-  }
-    }
-  }}
- 
+             & a {
+                 color: rgb(151, 142, 142);
+                 // color: red;
+                 text-decoration: none;
+
+                 &:hover {
+                     color: white;
+                     text-decoration-line: underline;
+                 }
+             }
+         }
+
+         ul li a {
+             text-decoration: none;
+             font-family: 'Roboto Condensed';
+
+             color: rgb(151, 142, 142);
+
+             &:hover {
+                 color: white;
+
+             }
+         }
+     }
+ }
+
+ .foot {
+     justify-content: center;
+     align-items: center;
+     background-color: #0c0b0b;
+     padding: 2px;
+     display: flex;
+
+     & .foot-left {
+         color: #888;
+         font-size: 16px;
+         margin-top: 9px;
+         font-family: 'Roboto Condensed';
+         font-weight: 800;
+         margin-left: 9px;
+         // margin: -16px;
+     }
+
+     & .foot-right .social-media-icons li {
+         display: inline-block;
+         margin-top: 9px;
+         margin-right: 10px;
+
+         & a {
+             color: #888;
+             // margin-left: 103px;
+             font-size: 24px;
+             font-family: 'Roboto Condensed';
+
+             &:hover {
+
+
+                 color: #555;
+
+             }
+         }
+     }
+ }
