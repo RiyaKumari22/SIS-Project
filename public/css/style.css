@@ -70,9 +70,7 @@
 .navbar {
   box-shadow: 0 2px 3px;
   background-image: linear-gradient(to left, #C69E24, black 80%);
-  width: 100%;
-  height: 87px;
-  top: 0; }
+  height: 87px; }
   .navbar .img a img {
     margin-left: 1px;
     cursor: pointer;
@@ -184,6 +182,10 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s; }
+
+@media (min-width: 1280px) {
+  .content {
+    color: red; } }
 
 .contact {
   display: flex;

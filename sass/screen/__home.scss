@@ -1,9 +1,9 @@
 
 .content{
-    margin-top: 55px;
-    margin: 78px 89px;
-    font-weight: 400;
-font-family: 'Roboto Condensed';
+  margin-top: 55px;
+  margin: 78px 89px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed';
 
     & .content-tittle{
         position: relative;
@@ -49,6 +49,7 @@ font-family: 'Roboto Condensed';
      }
 }
 .carousel {
+
     width: 84rem;
  
     margin-top:5rem;
@@ -57,13 +58,13 @@ font-family: 'Roboto Condensed';
   }
   .mySlides {
     display: none;       
-
+  
     & img{
       // margin-top: 1rem;
       // margin-left: 4rem;
         width:1349px;
          height:512px;
-     
+       
     }
   }
  
@@ -71,6 +72,7 @@ font-family: 'Roboto Condensed';
   .slideshow-container {
     position: relative;
     margin: 0 auto;
+    
   }
   .carousel .prev,
   .carousel .next{
@@ -107,4 +109,9 @@ font-family: 'Roboto Condensed';
     animation-name: fade;
     animation-duration: 1.5s;
   }
+  .content{
 
+    @include desktop{
+      color: red;
+    }
+  }

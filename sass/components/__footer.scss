@@ -1,6 +1,9 @@
 .footer{
     background-color: #282828;
     padding: 26px;
+   
+//   @include for-desktop;
+
    & .footer-icon a .bx{
         color: $background-primary;
         
@@ -60,10 +63,14 @@ font-family: 'Roboto Condensed';
 }
 
 .foot {
+    // @include for-desktop;
+
+    // width: 100%;
 justify-content: center;
 align-items: center;
     background-color: #0c0b0b;
     padding: 2px;
+    // width: 1380px;
     display: flex;
 & .foot-left{
     color: #888;
@@ -92,3 +99,4 @@ font-family: 'Roboto Condensed';
   }
     }
   }}
+ 
