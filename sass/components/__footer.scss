@@ -5,18 +5,19 @@
      & .footer-icon a .bx {
          color: $background-primary;
          font-size: 32px;
-         font-family: 'Roboto Condensed';
+        // font-family: $font-primary;
+         
          position: absolute;
          right: 30px;
      }
 
      & a i {
          font-size: 52px;
-         // color:#555;
-         //  margin-left: 78rem;
+
          background-color: #555;
          color: white;
-         font-family: 'Roboto Condensed';
+        font-family: $font-primary;
+        
 
          /* border: 2px solid white; */
          border: 2px solid #555;
@@ -26,16 +27,19 @@
          position: relative;
 
          & h3 {
-             color: $background-primary;
-             font-size: 22px;
+             color: white;
+             font-size: 20px;
              margin: 23px 37px;
-             font-family: 'Roboto Condensed';
+        // font-family: $font-primary;
+             
 
          }
 
          & p {
              margin-left: 37px;
-             font-family: 'Roboto Condensed';
+        font-family: $font-primary;
+font-size: 17px;
+           
 
 
              position: relative;
@@ -55,8 +59,9 @@
 
          ul li a {
              text-decoration: none;
-             font-family: 'Roboto Condensed';
-
+        font-family: $font-primary;
+            
+font-size: 17px;
              color: rgb(151, 142, 142);
 
              &:hover {
@@ -76,9 +81,10 @@
 
      & .foot-left {
          color: #888;
-         font-size: 16px;
+         font-size: 18px;
          margin-top: 9px;
-         font-family: 'Roboto Condensed';
+         font-family: $font-primary;
+       
          font-weight: 800;
          margin-left: 9px;
          // margin: -16px;
@@ -93,7 +99,8 @@
              color: #888;
              // margin-left: 103px;
              font-size: 24px;
-             font-family: 'Roboto Condensed';
+        font-family: $font-primary;
+           
 
              &:hover {
 
