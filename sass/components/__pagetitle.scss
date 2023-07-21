@@ -1,18 +1,28 @@
 .pagetitle {
-    margin-top: 74px;
+    // margin-top: 74px;
     display: flex;
     justify-content: center;
     
     align-items: center;
-    color: white;
-    width: 100%;
-    height: 160px;
+    // color: white;
+    // width: 100%;
+    height: 340px;
 
 
-    background-color: #c2a140;
+    // background-color: red;
+    background-image: url("https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWJvdXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+//    object-fit: contain;
+background-attachment: fixed;
+    background-size: contain;
+    opacity:70%;
+    
 
     & h1 {
-        font-size: 43px;
+    // background-image: linear-gradient($background-primary,black);
+        color: $background-primary;
+        font-weight: 800;
+        margin: 95px 67px 0px 0px;
+        font-size: 56px;
         // font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     }
