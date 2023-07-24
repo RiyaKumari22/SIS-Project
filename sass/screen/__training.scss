@@ -24,7 +24,7 @@
 
         &-right{
             position: relative;
-            margin: 96px 145px 42px 14px ;
+            // margin: 96px 145px 42px 14px ;
             height: 50%;
             & img{
             
@@ -40,7 +40,7 @@
         align-items: center;
 
         &-left,&-right{
-            width: 50%;
+            // width: 50%;
             height: 300px;
         }
 
@@ -53,23 +53,24 @@
 
         &-right{
             position: relative;
-            margin: 0 24px 87px ;
+            // margin: 0 24px 87px ;
             & img{
             
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
             }
-        }
-}
+        }}
+
  & .imgfile {
-    margin: 2px 622px;
+    // margin: 2px 622px;
+    margin-top: 18px;
     & img{
-padding: 13px;
+width: 90%;
     }
         }
       &  h6{
-            margin: 33px 0;
+            // margin: 57px 0;
         position: relative;
         // color: rgb(2, 0, 0);
         font-size: 17px;
@@ -82,8 +83,20 @@ padding: 13px;
     // color: blue;
     font-size: 17px;
     // padding: 14px;
-    margin: 0px 53px 18px 639px;
+    margin: 0px 53px 18px 29px;
         font-family: $font-primary;
     
 }
+}
+@include phone{
+    .training__row-left{
+        text-align: center;
+        font-size: 17px;
+    }
+   .training__row2-right img{
+display: none;
+    }
+    .training__row2-left{
+        text-align: center;
+    }
 }

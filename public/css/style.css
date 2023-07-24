@@ -5,7 +5,8 @@
 
 .footer {
   background-color: #282828;
-  padding: 26px; }
+  padding: 26px;
+  width: 100%; }
   .footer .footer-icon a .bx {
     color: #C69E24;
     font-size: 32px;
@@ -49,7 +50,8 @@
   align-items: center;
   background-color: #0c0b0b;
   padding: 2px;
-  display: flex; }
+  display: flex;
+  width: 100%; }
   .foot .foot-left {
     color: #888;
     font-size: 18px;
@@ -129,6 +131,7 @@
   .content__c {
     display: flex; }
   .content .content-img {
+    width: 100%;
     position: relative;
     margin-left: 16px; }
 
@@ -141,7 +144,7 @@
   display: none; }
   .mySlides img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover; }
 
 .slideshow-container {
@@ -182,6 +185,10 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s; }
+
+@media (max-width: 866px) {
+  .content {
+    width: 900px; } }
 
 .contact {
   display: flex;
@@ -257,20 +264,18 @@
   padding: 42px; }
 
 .cards {
-  width: 70rem;
+  width: 100%;
   padding: 65px;
-  margin-top: -52px;
-  height: 670px;
-  margin-left: 9rem;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row; }
+  justify-content: center;
+  align-items: center; }
   .cards .card {
-    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin: 16px;
-    width: 500px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     background-color: white;
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
     .cards .card .btn {
@@ -279,10 +284,6 @@
       font-weight: 700;
       font-family: Arial, Helvetica, sans-serif;
       border: 1px solid #C69E24; }
-    .cards .card img {
-      width: 178px;
-      height: 160px;
-      margin-left: 3rem; }
     .cards .card a {
       display: flex;
       justify-content: center;
@@ -307,49 +308,57 @@
     margin: 95px 67px 0px 0px;
     font-size: 56px; }
 
-.activities .acard {
-  height: 400px;
-  padding: 12px; }
-  .activities .acard img {
-    border-radius: 8px;
-    width: 100%;
-    height: 390px; }
+@media (max-width: 360px) {
+  .pagetitle {
+    background-size: cover; }
+    .pagetitle h1 {
+      font-size: 27px;
+      margin: 95px 37px 0px 0px; } }
 
 .activities {
-  width: 100%;
-  padding: 65px;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; }
-  .activities .tcard {
-    border-radius: 8px;
-    margin: 16px;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+  .activities .acard {
+    margin-top: 2px;
+    height: 300px;
+    margin: 4px 37px;
+    padding: 22px; }
+    .activities .acard img {
+      border-radius: 8px;
+      object-fit: cover;
+      width: 310px;
+      height: 240px; }
+
+.bootcamp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .bootcamp .bcard {
+    height: 300px;
+    margin: 4px 37px; }
+    .bootcamp .bcard img {
+      border-radius: 8px;
+      object-fit: cover;
+      width: 310px;
+      height: 240px; }
 
 .infrastructure {
-  width: 100%;
-  padding: 65px;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center; }
   .infrastructure .tcard {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin: 16px;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
+    margin-top: 2px;
+    height: 300px;
+    margin: 4px 37px; }
     .infrastructure .tcard img {
-      width: 100%;
-      height: 80%; }
+      border-radius: 8px;
+      object-fit: cover;
+      width: 310px;
+      height: 240px; }
 
 .placement {
   display: flex;
@@ -389,7 +398,6 @@
       height: 100%; }
 
 .committee .committee__c p {
-  margin: 20px 0;
   position: relative;
   color: #020000;
   font-size: 25px;
@@ -438,7 +446,6 @@
       color: #C69E24; }
   .training__row-right {
     position: relative;
-    margin: 96px 145px 42px 14px;
     height: 50%; }
     .training__row-right img {
       width: 100%;
@@ -449,7 +456,6 @@
   display: flex;
   align-items: center; }
   .training__row2-left, .training__row2-right {
-    width: 50%;
     height: 300px; }
   .training__row2-left {
     padding: 14px;
@@ -457,20 +463,18 @@
     font-size: 17px;
     font-family: "Roboto Condensed,sans-serif"; }
   .training__row2-right {
-    position: relative;
-    margin: 0 24px 87px; }
+    position: relative; }
     .training__row2-right img {
       width: 100%;
       height: 100%;
       object-fit: contain; }
 
 .training .imgfile {
-  margin: 2px 622px; }
+  margin-top: 18px; }
   .training .imgfile img {
-    padding: 13px; }
+    width: 90%; }
 
 .training h6 {
-  margin: 33px 0;
   position: relative;
   font-size: 17px;
   font-family: "Roboto Condensed,sans-serif";
@@ -480,8 +484,17 @@
 
 .training .lefty {
   font-size: 17px;
-  margin: 0px 53px 18px 639px;
+  margin: 0px 53px 18px 29px;
   font-family: "Roboto Condensed,sans-serif"; }
+
+@media (max-width: 360px) {
+  .training__row-left {
+    text-align: center;
+    font-size: 17px; }
+  .training__row2-right img {
+    display: none; }
+  .training__row2-left {
+    text-align: center; } }
 
 .security h2 {
   font-size: 36px;

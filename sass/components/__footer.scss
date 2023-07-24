@@ -1,7 +1,7 @@
  .footer {
      background-color: #282828;
      padding: 26px;
-
+width: 100%;
      & .footer-icon a .bx {
          color: $background-primary;
          font-size: 32px;
@@ -78,6 +78,8 @@ font-size: 17px;
      background-color: #0c0b0b;
      padding: 2px;
      display: flex;
+width: 100%;
+
 
      & .foot-left {
          color: #888;
@@ -111,3 +113,4 @@ font-size: 17px;
          }
      }
  }
+ 

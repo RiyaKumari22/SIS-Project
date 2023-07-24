@@ -12,11 +12,12 @@
     }
     & .content{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         & img{
             
-            width: 370px;
-            height:310px;
+            // width: 370px;
+            // height:310px;
+            margin: 0;
         
             
         }
@@ -44,7 +45,7 @@ font-family:$font-primary;
     & img{
     width: 150px;
         
-          margin: 45px;
+        //   margin: 45px;
     // padding: 8px;
    }
 }
