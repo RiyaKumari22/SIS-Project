@@ -3,7 +3,7 @@
  
    
 
-    
+    width: 90%;
     & p{
         margin: 0 076px;
 
@@ -19,7 +19,7 @@ font-family: $font-primary;
     // background-color: rgb(255, 255, 255);
     background-color: rgb(248, 248, 248);
     
-    padding: 3rem;
+    // padding: 3rem;
     & h4{
         font-weight: 700;
         font-size: 29px;
@@ -28,13 +28,32 @@ font-family: $font-primary;
         & span{
             color: $background-primary;
         }
-        
     }
-    & img{
-      
-    width: 190px;
-        
-          margin-left: 18rem;
-    // padding: 8px;
-   }
+    & .companyimg{
+       
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+    
 }
+
+@include phone{
+    .cash {
+        p{
+       font-size: 18px;
+       margin: 2px 11px;
+       // color: red;
+   }}
+   .groupcompanyCash{
+    h4{
+        font-size: 23px;
+    }
+    & .companyimg{
+        display: flex;
+        flex-direction: column;
+    }
+   }
+} 

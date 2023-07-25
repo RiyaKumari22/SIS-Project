@@ -45,4 +45,18 @@
                     }
   }
 }
+@include phone{
+  .cards{
+    & .card{
+    height: 300px;
+& .btn{
+  width: 60%;
+  height: 40%;
+ margin: 26px 34px;
+}
+  & a{
+    font-size: 14px;
+  }
 
+  }}
+}

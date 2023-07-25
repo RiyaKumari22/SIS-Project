@@ -1,13 +1,12 @@
 
 .contact{
     display: flex;
-    // flex-direction: row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-  width: 100%;
-    // width: 767px;
-    height: 459px;
-   
+
+    height: auto;
+   margin: 40px 0 50px;
    
       form{
     background-color:white;
@@ -15,7 +14,7 @@
     
    width: 30%;
       padding: 23px 34px;
-  
+
 box-shadow: 0 14px 44px rgba(0, 0, 0, 0.1);
         height: 380px;
        
@@ -91,10 +90,27 @@ height: 39px;
  }
     }
 .map{
+  
     border-radius: 7px;
    
         
 box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
        
 }
+}
+@include phone{
+   .contact{
+    
+    // height: 800px;
+    display: flex;
+    flex-direction: column;
+    & form{
+        width: 90%;
+    }
+    & .map{
+// width: 60%;
+margin: 33px;
+    }
+   }
+
 }

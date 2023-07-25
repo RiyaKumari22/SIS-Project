@@ -30,10 +30,11 @@ background-attachment: fixed;
 @include phone{
    .pagetitle{
     background-size: cover;
+    
    &  h1{
-        font-size: 27px;
-        margin: 95px 37px 0px 0px;
-
+        font-size: 22px;
+        text-align: center;
+ 
         // color: red;
     }
 

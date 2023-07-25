@@ -113,4 +113,11 @@ width: 100%;
          }
      }
  }
- 
+ @include phone{
+     .foot {
+        & .foot-left{
+text-align: center;
+            font-size: 13px;
+        }
+     }
+ }
