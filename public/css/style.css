@@ -109,9 +109,10 @@
   margin: 30px 89px;
   font-weight: 400;
   font-family: "Roboto Condensed,sans-serif"; }
-  .content .content-title {
+  .content .content-title h2 {
     position: relative;
-    font-size: 22px; }
+    font-size: 28px;
+    font-family: "Roboto Condensed,sans-serif"; }
   .content__c {
     display: flex; }
     .content__c .cont {
@@ -308,6 +309,7 @@
   color: #020000;
   font-size: 19px;
   font-family: "Roboto Condensed,sans-serif";
+  font-size: 19px;
   font-weight: 400;
   margin-left: 0 !important;
   padding: 42px; }
@@ -458,7 +460,7 @@
 .committee .committee__c p {
   position: relative;
   color: #020000;
-  font-size: 25px;
+  font-size: 21px;
   font-family: "Roboto Condensed,sans-serif";
   font-weight: 400;
   margin-left: 0 !important;
@@ -523,13 +525,17 @@
       display: flex;
       flex-direction: column; }
       .training__row2-right p {
-        margin: 12px; }
+        margin: 12px;
+        font-family: "Roboto Condensed,sans-serif";
+        font-size: 18px; }
       .training__row2-right .imgfile {
         display: flex;
         align-items: center;
         justify-content: center; }
   .training p {
-    margin: 22px 31px; }
+    margin: 22px 31px;
+    font-size: 18px;
+    font-family: "Roboto Condensed,sans-serif"; }
 
 @media (max-width: 768px) {
   .training {

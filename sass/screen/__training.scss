@@ -41,6 +41,8 @@ align-items: center;
         flex-direction: column;
         & p{
             margin: 12px;
+            font-family: $font-primary;
+            font-size: 18px;
         }
         & .imgfile{
             display: flex;
@@ -51,6 +53,8 @@ align-items: center;
   }
   & p{
     margin: 22px 31px;
+    font-size: 18px;
+    font-family: $font-primary;
   }
 }
 @include tablet{
