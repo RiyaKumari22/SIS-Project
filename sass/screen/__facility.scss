@@ -128,5 +128,16 @@ margin: 18px 17px;
     .container{
     display: flex;
     flex-direction: column;
+}
+.groupcompany{
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        & img{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
