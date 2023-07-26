@@ -98,6 +98,17 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
        
 }
 }
+@include tablet{
+    .contact{
+
+      &  form{
+            width: 50%;
+        }
+        & .map{
+            width: 330px;
+        }
+    }
+}
 @include phone{
    .contact{
     
@@ -106,6 +117,7 @@ box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     flex-direction: column;
     & form{
         width: 90%;
+      
     }
     & .map{
 // width: 60%;

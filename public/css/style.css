@@ -186,9 +186,23 @@
   animation-name: fade;
   animation-duration: 1.5s; }
 
-@media (max-width: 866px) {
+@media (max-width: 768px) {
   .content {
-    width: 900px; } }
+    margin: 14px 12px;
+    display: flex;
+    flex-direction: column;
+    width: 90%; }
+    .content .content-title h2 {
+      line-height: 28px;
+      font-size: 23px; }
+    .content__c {
+      display: flex;
+      flex-direction: column; }
+      .content__c .cont {
+        font-size: 16px; }
+      .content__c .content-img img {
+        width: 70%;
+        margin: 9px 0; } }
 
 @media (max-width: 360px) {
   .content {
@@ -273,6 +287,12 @@
     border-radius: 7px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); }
 
+@media (max-width: 768px) {
+  .contact form {
+    width: 50%; }
+  .contact .map {
+    width: 330px; } }
+
 @media (max-width: 360px) {
   .contact {
     display: flex;
@@ -294,7 +314,6 @@
 
 .cards {
   width: 100%;
-  padding: 65px;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -360,10 +379,8 @@
   justify-content: center;
   align-items: center; }
   .activities .acard {
-    margin-top: 2px;
     height: 300px;
-    margin: 4px 37px;
-    padding: 22px; }
+    margin: 14px 37px; }
     .activities .acard img {
       border-radius: 8px;
       object-fit: cover;
@@ -377,7 +394,7 @@
   align-items: center; }
   .bootcamp .bcard {
     height: 300px;
-    margin: 4px 37px; }
+    margin: 14px 37px; }
     .bootcamp .bcard img {
       border-radius: 8px;
       object-fit: cover;
@@ -392,7 +409,7 @@
   .infrastructure .tcard {
     margin-top: 2px;
     height: 300px;
-    margin: 4px 37px; }
+    margin: 14px 37px; }
     .infrastructure .tcard img {
       border-radius: 8px;
       object-fit: cover;
@@ -401,14 +418,16 @@
 
 .placement {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
   .placement .pcard {
     height: 300px;
-    margin: 2px 38px; }
+    margin: 20px 38px; }
     .placement .pcard img {
       border-radius: 8px;
       object-fit: cover;
-      width: 360px;
+      width: 300px;
       height: 270px; }
 
 .director .dcards {
@@ -535,16 +554,10 @@
   .training__row2-left {
     text-align: center; } }
 
-.security h2 {
-  font-size: 36px;
-  font-weight: 700;
-  text-align: center; }
-  .security h2 span {
-    color: #C69E24; }
-
 .security .content {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  margin: 30px 32px; }
   .security .content img {
     width: 370px;
     height: 310px;
@@ -562,9 +575,17 @@
     .groupcompanySecurity h4 span {
       color: #C69E24; }
   .groupcompanySecurity img {
-    display: flex;
-    flex-direction: row;
-    width: 150px; }
+    width: 150px;
+    margin: 51px; }
+
+@media (max-width: 768px) {
+  .groupcompanySecurity {
+    height: 300px; }
+    .groupcompanySecurity h4 {
+      font-size: 24px; }
+    .groupcompanySecurity img {
+      width: 120px;
+      margin: 17px 11px; } }
 
 @media (max-width: 360px) {
   .security .content {
@@ -595,7 +616,7 @@
   flex-direction: row;
   margin: 28px; }
   .container .ileft .item {
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     padding: 14px; }
@@ -640,6 +661,15 @@
     width: 150px;
     margin: 51px; }
 
+@media (max-width: 768px) {
+  .groupcompany {
+    height: 230px; }
+    .groupcompany h4 {
+      font-size: 22px; }
+    .groupcompany img {
+      width: 100px;
+      margin: 18px 17px; } }
+
 @media (max-width: 360px) {
   .facility p {
     font-size: 18px;
@@ -671,6 +701,15 @@
     display: flex;
     justify-content: center;
     align-items: center; }
+
+@media (max-width: 768px) {
+  .groupcompanyCash {
+    height: 220px; }
+    .groupcompanyCash h4 {
+      font-size: 22px; }
+    .groupcompanyCash img {
+      width: 130px;
+      margin: 19px 11px; } }
 
 @media (max-width: 360px) {
   .cash p {

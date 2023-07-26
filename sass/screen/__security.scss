@@ -1,18 +1,11 @@
 .security{
 
     
-    & h2{
-        font-size: 36px;
-        font-weight: 700;
-        text-align: center;
-        & span{
-            color: $background-primary;
-            
-        }
-    }
+ 
     & .content{
         display: flex;
         flex-direction: row;
+        margin: 30px 32px;
         & img{
             
             width: 370px;
@@ -43,13 +36,23 @@ font-family:$font-primary;
         
     }
     & img{
-        display: flex;
-        flex-direction: row;
-    width: 150px;
-        
-        //   margin: 45px;
-    // padding: 8px;
+        width: 150px;
+        margin: 51px;
+   
    }
+}
+@include tablet{
+    .groupcompanySecurity{
+
+        height: 300px;
+        & h4{
+            font-size: 24px;
+        }
+       & img{
+width: 120px;
+margin: 17px 11px;
+        }
+    }
 }
 @include phone{
     .security{

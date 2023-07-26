@@ -1,11 +1,9 @@
 .training {
-    // margin-top: 78px;
-    
 
     &__row{
         display: flex;
         align-items: center;
-// justify-content: center;
+
         &-left,&-right{
             width: 50%;
             height: 100px;
@@ -24,7 +22,7 @@
 
         &-right{
             position: relative;
-            // margin: 96px 145px 42px 14px ;
+          
             height: 50%;
             & img{
             
@@ -40,7 +38,7 @@
         align-items: center;
 
         &-left,&-right{
-            // width: 50%;
+         
             height: 300px;
         }
 
@@ -53,7 +51,7 @@
 
         &-right{
             position: relative;
-            // margin: 0 24px 87px ;
+          
             & img{
             
                 width: 100%;

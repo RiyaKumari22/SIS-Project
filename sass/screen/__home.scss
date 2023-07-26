@@ -1,5 +1,5 @@
 .content {
-  // margin-top: 55px;
+  
   margin:30px 89px;
   font-weight: 400;
   font-family: $font-primary;
@@ -7,14 +7,13 @@
   & .content-title {
     position: relative;
     font-size: 22px;
-    // font-family: $font-primary;
-
+    
   }
 
   
   &__c{
     display: flex;
-    // flex-direction: row;
+  
     & .cont {
       position: relative;
       font-family: $font-primary;
@@ -50,9 +49,7 @@
 }
 
 .carousel {
-    // width: 100%;
- 
-    // margin-top:74px;
+
     position: relative;
   }
   .mySlides {
@@ -108,11 +105,39 @@
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  @include tablet{
-.content{
-  width: 900px;
-}
+@include tablet{
+  .content{
+    margin: 14px 12px;
+    display: flex;
+    // text-align: center;
+    flex-direction: column;
+    width: 90%;
+    & .content-title{
+      h2{
+line-height: 28px;
+        font-size: 23px;
+// color: red;
+      }}
+      &__c{
+        display: flex;
+        flex-direction: column;
+    & .cont{
+      font-size: 16px;
+      // color: red;
+      
+    }
+      & .content-img img{
+        // margin-top: 3px;
+        width: 70%;
+        margin: 9px 0;
+       
+ 
+    }
+      
   }
+
+  }
+}
   @include phone{
     .content{
       margin: 14px 12px;

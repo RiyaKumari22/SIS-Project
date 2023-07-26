@@ -17,11 +17,11 @@
     margin: 28px;
     
    & .ileft{
-  & .item:first-child{
-    // margin-left: 7px;
-  }
+//   & .item:first-child{
+//     // margin-left: 7px;
+//   }
     & .item{
-        width:90%;
+        width:80%;
         display: flex;
         flex-direction: row;
         padding: 14px;
@@ -49,9 +49,9 @@ font-family:$font-primary;
     }
    }
    & .iright{
-    & .item:first-child{
-        // margin-left: 7px;
-      }
+    // & .item:first-child{
+    //     // margin-left: 7px;
+    //   }
      
     & .item{
         // width:560px;
@@ -100,12 +100,24 @@ padding: 18px;
     & img{
     width: 150px;
     margin: 51px;
-        
-    // padding: 8px;
+
    }
 
 }
+@include tablet{
+    .groupcompany{
 
+        height: 230px;
+        & h4{
+            font-size: 22px;
+          
+        }
+       & img{
+width: 100px;
+margin: 18px 17px;
+        }
+    }
+}
 @include phone{
     .facility {
          p{
