@@ -342,14 +342,12 @@
         color: #C69E24; }
 
 @media (max-width: 360px) {
-  .cards .card {
-    height: 300px; }
-    .cards .card .btn {
-      width: 60%;
-      height: 40%;
-      margin: 26px 34px; }
-    .cards .card a {
-      font-size: 14px; } }
+  .cards .card .btn {
+    width: 60%;
+    height: 40%;
+    margin: 2px 34px; }
+  .cards .card a {
+    font-size: 14px; } }
 
 .pagetitle {
   display: flex;
@@ -427,7 +425,7 @@
     .placement .pcard img {
       border-radius: 8px;
       object-fit: cover;
-      width: 300px;
+      width: 270px;
       height: 270px; }
 
 .director .dcards {
