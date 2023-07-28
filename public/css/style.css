@@ -576,6 +576,13 @@
         width: 100%;
         margin-top: 10px; } }
 
+.security h1 {
+  margin-top: 31px;
+  font-weight: 800;
+  text-align: center; }
+  .security h1 span {
+    color: #C69E24; }
+
 .security .content {
   display: flex;
   flex-direction: row;
@@ -755,3 +762,58 @@
     .groupcompanyCash .companyimg {
       display: flex;
       flex-direction: column; } }
+
+.international {
+  margin: 0; }
+  .international h1 {
+    font-size: 32px;
+    margin-top: 31px;
+    font-weight: 800;
+    text-align: center; }
+    .international h1 span {
+      color: #C69E24; }
+  .international .icontent__c {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 32px; }
+    .international .icontent__c img {
+      width: 370px;
+      height: 270px; }
+    .international .icontent__c p {
+      font-size: 21px;
+      font-family: "Roboto Condensed,sans-serif";
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .international .icontent__c-c {
+    font-size: 21px;
+    font-family: "Roboto Condensed,sans-serif";
+    margin: 2px 31px; }
+
+.companyinternational {
+  background-color: #f8f8f8; }
+  .companyinternational h4 {
+    font-weight: 700;
+    font-size: 29px;
+    text-align: center; }
+    .companyinternational h4 span {
+      color: #C69E24; }
+  .companyinternational img {
+    width: 190px;
+    margin: 71px; }
+
+@media (max-width: 768px) {
+  .international h1 {
+    font-size: 17px;
+    text-align: center; }
+  .international .icontent__c {
+    display: flex;
+    flex-direction: column; }
+    .international .icontent__c img {
+      width: 100%; }
+    .international .icontent__c p {
+      font-size: 18px; }
+  .international .icontent__c-c p {
+    font-size: 18px; }
+  .companyinternational h4 {
+    font-size: 20px; } }

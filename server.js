@@ -44,13 +44,16 @@ app.get('/training',(req,res)=>{
     res.render('training',{'title':'Training and Development'})
 })
 app.get('/security',(req,res)=>{
-    res.render('security',{'title':'Security Solutions'})
+    res.render('security',{'title':'Security Solutions India'})
 })
 app.get('/facility',(req,res)=>{
     res.render('facility',{'title':'Facility Management Solutions'})
 })
 app.get('/cash',(req,res)=>{
     res.render('cash',{'title':'Cash Logistics Solutions'})
+})
+app.get('/international',(req,res)=>{
+    res.render('international',{'title':'Security Solutions International'})
 })
 // app.get('/header',(req,res)=>{
 //     res.render('header')

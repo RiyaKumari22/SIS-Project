@@ -1,5 +1,14 @@
 .security{
+h1{
+    margin-top: 31px;
+    font-weight: 800;
+    text-align: center;
+    // color: black;
+    & span{
+        color: $background-primary;
 
+    }
+}
     
  
     & .content{
