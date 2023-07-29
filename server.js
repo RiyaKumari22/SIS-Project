@@ -55,6 +55,9 @@ app.get('/cash',(req,res)=>{
 app.get('/international',(req,res)=>{
     res.render('international',{'title':'Security Solutions International'})
 })
+app.get('/founder',(req,res)=>{
+    res.render('founder',{'title':'Founder & Group Chairman'})
+})
 // app.get('/header',(req,res)=>{
 //     res.render('header')
 // })
