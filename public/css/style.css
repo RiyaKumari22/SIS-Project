@@ -282,14 +282,17 @@
         color: #C69E24;
         background-color: white;
         border: 1px solid #C69E24; }
-  .contact .map {
-    border-radius: 7px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); }
+  .contact .maps {
+    box-shadow: 0 14px 44px rgba(0, 0, 0, 0.1); }
+    .contact .maps iframe {
+      border-radius: 3px;
+      width: 100%;
+      height: 370px; }
 
 @media (max-width: 768px) {
   .contact form {
     width: 50%; }
-  .contact .map {
+  .contact .maps {
     width: 330px; } }
 
 @media (max-width: 360px) {
@@ -298,7 +301,7 @@
     flex-direction: column; }
     .contact form {
       width: 90%; }
-    .contact .map {
+    .contact .maps {
       margin: 33px; } }
 
 .about p {
@@ -313,8 +316,6 @@
   padding: 42px; }
 
 .cards {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -322,8 +323,7 @@
   .cards .card {
     border-radius: 8px;
     margin: 16px;
-    width: 100%;
-    height: 100%;
+    width: 20%;
     background-color: white;
     box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1); }
     .cards .card .btn {
@@ -341,13 +341,26 @@
         background-color: white;
         color: #C69E24; }
 
+@media (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column; }
+    .cards .card {
+      width: 40%;
+      height: 80%; } }
+
 @media (max-width: 360px) {
-  .cards .card .btn {
-    width: 60%;
-    height: 40%;
-    margin: 2px 34px; }
-  .cards .card a {
-    font-size: 14px; } }
+  .cards {
+    display: flex;
+    flex-direction: column; }
+    .cards .card {
+      width: 80%; }
+      .cards .card .btn {
+        width: 60%;
+        height: 40%;
+        margin: 2px 34px; }
+      .cards .card a {
+        font-size: 14px; } }
 
 .pagetitle {
   display: flex;
