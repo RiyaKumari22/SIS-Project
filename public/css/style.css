@@ -820,3 +820,25 @@
     font-size: 18px; }
   .companyinternational h4 {
     font-size: 20px; } }
+
+.founder {
+  width: 100%; }
+  .founder__c {
+    margin-top: 22px; }
+    .founder__c img {
+      width: 100%; }
+    .founder__c h2 {
+      font-size: 40px;
+      text-align: center;
+      margin-top: 42px;
+      font-weight: 700; }
+      .founder__c h2 span {
+        color: #C69E24; }
+    .founder__c-c {
+      display: flex;
+      flex-direction: row;
+      margin: 33px 55px; }
+      .founder__c-c p {
+        font-family: "Roboto Condensed,sans-serif";
+        font-size: 19px;
+        margin: 0 76px; }

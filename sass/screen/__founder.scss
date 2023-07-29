@@ -1,0 +1,29 @@
+.founder{
+    width: 100%;
+    &__c{
+        margin-top: 22px;
+        & img{
+
+            width: 100%;
+        }
+        & h2{
+            font-size: 40px;
+            text-align: center;
+            margin-top: 42px;
+            font-weight: 700;
+            & span{
+                color: $background-primary;
+            }
+        }
+        &-c{
+            display: flex;
+            flex-direction: row;
+         margin: 33px 55px;
+         & p{
+            font-family: $font-primary;
+            font-size: 19px;
+            margin: 0 76px;
+         }
+        }
+    }
+}
