@@ -2,8 +2,9 @@
   "name": "sis",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
+    "build":"react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-sass": "node-sass ./sass/main.scss ./public/css/style.css -w"
   },
